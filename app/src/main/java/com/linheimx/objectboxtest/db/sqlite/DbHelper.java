@@ -16,7 +16,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String sql = "create table if not exists tbl1(one varchar(10), two smallint)";
+        String sql = "create table if not exists dog(_id integer auto increment, name text)";
         db.execSQL(sql);
     }
 
