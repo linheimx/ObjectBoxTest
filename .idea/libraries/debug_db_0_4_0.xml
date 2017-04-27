@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="debug-db-0.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/f1e3585fa2c0a8cc6456bf471ffe5a27c26dc35a/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/f1e3585fa2c0a8cc6456bf471ffe5a27c26dc35a/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
