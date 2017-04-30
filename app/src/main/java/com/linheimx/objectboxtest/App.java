@@ -30,18 +30,18 @@ public class App extends Application {
         super.onCreate();
 
 
-        if (ContextCompat.checkSelfPermission(this,
-                Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                == PackageManager.PERMISSION_GRANTED) {
-
-            // 读写权限授予了
-            File directory = new File(Environment.getExternalStorageDirectory(), "ObjectBoxTest");
-            if (!directory.exists()) {
-                directory.mkdir();
-            }
-            boxStore = MyObjectBox.builder().androidContext(App.this).directory(directory).build();
-        }
-
+//        if (ContextCompat.checkSelfPermission(this,
+//                Manifest.permission.WRITE_EXTERNAL_STORAGE)
+//                == PackageManager.PERMISSION_GRANTED) {
+//
+//            // 读写权限授予了
+//            File directory = new File(Environment.getExternalStorageDirectory(), "ObjectBoxTest");
+//            if (!directory.exists()) {
+//                directory.mkdir();
+//            }
+//            boxStore = MyObjectBox.builder().androidContext(App.this).directory(directory).build();
+//        }
+        boxStore = MyObjectBox.builder().androidContext(App.this).build();
         sqLiteDatabase = new DbHelper(this).getWritableDatabase();
     }
 

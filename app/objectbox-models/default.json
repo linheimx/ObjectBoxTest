@@ -4,41 +4,56 @@
   "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
   "entities": [
     {
-      "id": "1:4641992366492337566",
-      "lastPropertyId": "2:957379130370700345",
+      "id": "1:10180579702978698",
+      "lastPropertyId": "2:3251755503181512042",
       "name": "Dog",
       "properties": [
         {
-          "id": "1:8052583482882738369",
+          "id": "1:5121961783849021917",
           "name": "id"
         },
         {
-          "id": "2:957379130370700345",
+          "id": "2:3251755503181512042",
           "name": "name"
         }
       ]
     },
     {
-      "id": "2:6052655160597285363",
-      "lastPropertyId": "3:1167949142566267472",
-      "name": "Av",
+      "id": "2:749330697710166970",
+      "lastPropertyId": "2:3664447812008608519",
+      "name": "School",
       "properties": [
         {
-          "id": "1:7412327499852369651",
+          "id": "1:7595007282543032999",
           "name": "id"
         },
         {
-          "id": "2:5368079956741118571",
+          "id": "2:3664447812008608519",
+          "name": "name"
+        }
+      ]
+    },
+    {
+      "id": "3:921280436141354371",
+      "lastPropertyId": "3:177593604811255193",
+      "name": "Teacher",
+      "properties": [
+        {
+          "id": "1:6750780570842488208",
+          "name": "id"
+        },
+        {
+          "id": "2:2856790877432640088",
           "name": "name"
         },
         {
-          "id": "3:1167949142566267472",
+          "id": "3:177593604811255193",
           "name": "actor"
         }
       ]
     }
   ],
-  "lastEntityId": "2:6052655160597285363",
+  "lastEntityId": "3:921280436141354371",
   "lastIndexId": "0:0",
   "lastSequenceId": "0:0",
   "modelVersion": 2,

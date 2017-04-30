@@ -76,8 +76,16 @@ public class PerformanceActivity extends AppCompatActivity {
                 }
                 all_sqlite = all_sqlite / 5;
 
+                final long t1 = all_ob;
+                final long t2 = all_sqlite;
                 //////////////////////// 主线程show  /////////////////////////
-                chartFragment.setData(all_ob, all_sqlite);
+                _Handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        chartFragment.setData(t1, t2);
+                    }
+                });
+
             }
         });
     }
